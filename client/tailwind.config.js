@@ -7,10 +7,19 @@ export default {
   theme: {
     extend: {
       colors: {
-        //naming for the background colors (mainly tesing/debugging)
-        'brand-bg': '#B6D0E2',
-        'brand-primary': '#B6D0E2',
-        'brand-test': '#FF0000',
+        //Emerald Green Palette
+        'brand-bg': '#74C365',
+        //light green palette for cards and sections
+        'brand-cds': '#D9F2DD',
+        //Goldn Palette
+        'brand-bt': '#ffcf40',
+        //Black Palette
+        'brand-text': '#090909',
+        'brand-boundary': '#1c1c1c',
+        //white palette text
+        'brand-text-light': '#f5f5f5',
+        //ruby palette
+        'brand-notify': '#960000'
       },
     },
   },
