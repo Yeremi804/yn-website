@@ -6,6 +6,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import NoMatch from './pages/NoMatch';
 import Project from './pages/Project';
+import Skills from './pages/Skills'
 ;
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path ="/about" element={<About />} />
           <Route path ="/contact" element={<Contact />} />
           <Route path ="/project" element={<Project />} />
+          <Route path ="/skills" element={<Skills />} />
           <Route path ="*" element={<NoMatch />} />
         </Route>
       </Routes>

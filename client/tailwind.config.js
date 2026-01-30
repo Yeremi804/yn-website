@@ -7,14 +7,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        //Emerald Green Palette
-        'brand-bg': '#74C365',
+        //Sea Foam Green Palette
+        'brand-bg': '#50C878',
         //light green palette for cards and sections
         'brand-cds': '#D9F2DD',
         //Goldn Palette
         'brand-bt': '#ffcf40',
         //Black Palette
-        'brand-text': '#090909',
+        'brand-text': '#2D4F44',
+        //Boundary Palette
         'brand-boundary': '#1c1c1c',
         //white palette text
         'brand-text-light': '#f5f5f5',
