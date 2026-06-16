@@ -2,11 +2,11 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
-  "homepages": "https://yeremi804.github.io/yn-website/",
+  "homepage": "https://yeremi804.github.io/yn-website/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
